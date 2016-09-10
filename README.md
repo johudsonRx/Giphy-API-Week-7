@@ -1,0 +1,1 @@
+# Giphy-API-Week-7

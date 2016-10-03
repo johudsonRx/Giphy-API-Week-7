@@ -26,7 +26,7 @@
              // Creating a variable to store the value of the person that is searched for on the button
         var p = $(this).attr('data-person');
         var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
-         
+         $("#gifsAppearHere").empty();
        // console.log(p)
        // console.log(queryURL)
 
@@ -59,8 +59,13 @@
                     personImage.attr('data-state', 'still');
                     personImage.attr('data-animate', results[i].images.fixed_height.url);
                     personImage.addClass('artistImage');
-
-                    gifDiv.append(p)
+                    personImage.css("float","left");
+                    personImage.css("margin-left","20px");
+                    personImage.css("margin-bottom", "20px");
+                    personImage.css("margin-top", "20px");
+                    personImage.css("width", "191");
+                    personImage.css("height", "200");
+                    // gifDiv.append(p)
                     gifDiv.append(personImage)
                     
                      console.log(response);

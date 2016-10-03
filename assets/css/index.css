@@ -1,0 +1,12 @@
+
+body {
+  /*background-image: url('https://67.media.tumblr.com/34ea2c0cbbd0cc986bd66d53ac50000f/tumblr_nm6w079iPa1qhv2wyo1_500.gif');*/
+  background-color: rgba(0, 255, 188, 0.5);
+  background-position: center ;
+  background-image: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	    width: 662px;
+}

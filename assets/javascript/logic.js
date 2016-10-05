@@ -25,7 +25,7 @@
               $('.artist').on('click', function() {
              // Creating a variable to store the value of the person that is searched for on the button
         var p = $(this).attr('data-person');
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
          $("#gifsAppearHere").empty();
        // console.log(p)
        // console.log(queryURL)
